@@ -1,0 +1,44 @@
+#Img1{
+height: 800px;
+width: 768px;
+}
+body{
+    background-color: orange;
+}
+img {
+    width: 748px;
+    height: 704px;
+}
+.asdfghjkl{
+    font-size: 20px;
+}
+img.display{
+    opacity: 50%;
+    transition: width 0.5s,height 0.5s;
+    
+}
+img.display:hover{
+opacity: 100%;
+width: 780px;
+height: 810px;
+
+}
+.tooltip{
+    transition-property: visibility;
+    transition-delay: 0s;
+}
+.tooltip:hover{
+    visibility: visible;
+    transition-delay: 0.2s;
+}
+#suwi{
+    height: 704px;
+    width: 748px;
+}
+#suwi2{
+    height: 704px;
+    width: 748px;
+}
+#siu{
+    background-color: black;
+}
